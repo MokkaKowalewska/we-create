@@ -3,7 +3,7 @@
   <html lang="pl-PL">
     <head>
       <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta
         name="description"
         content="We create - Af gastropub venmo cliche air plant meh."
@@ -18,27 +18,25 @@
 
       <!-- Header: menu and main heading -->
       <header>
-        <div class="headerBackground">
-          <nav>
+        <div class="topHeader">
+          <nav class="topHeader__nav">
             <ul>
-              <li><a href="#projects">PROJECTS</a></li>
-              <li><a href="#team">TEAM</a></li>
-              <li><a href="#mission">MISSION</a></li>
-              <li><a href="#contact">CONTACT</a></li>
+              <li class="nav__li"><a href="#projects" class="nav__a">PROJECTS</a></li>
+              <li class="nav__li"><a href="#team" class="nav__a">TEAM</a></liclass="nav__li">
+              <li class="nav__li"><a href="#mission" class="nav__a">MISSION</a></li>
+              <li class="nav__li"><a href="#contact" class="nav__a">CONTACT</a></li>
             </ul>
           </nav>
-          <h1 class="weCreate">we create.</h1>
-          <h5 class="subHeader">strategy is our first name</h5>
+          <h1 class="header__h1">we create.</h1>
+          <h5 class="header__h5">strategy is our first name</h5>
         </div>
       </header>
 
+              <!-- main -->
       <div class="container">
-
-        <!-- main -->
-        <div class="row projects">
+        <div class="row">
           <div class="col-md-6">
-            <div id="projects">
-              <h4>projects</h4>
+              <h4 id="projects" class="main__h4">projects</h4>
               <p class="main__p">
                 Af gastropub venmo cliche air plant meh. Mollit man bun
                 nesciunt, commodo synth placeat forage tousled ad pitchfork
@@ -49,30 +47,29 @@
                 plant microdosing paleo wayfarers flannel celiac XOXO. Affogato
                 mumblecore migas blue bottle dolor single-origin coffee.
               </p>
-              <button class="findOutMore">find out more</button>
+              <button class="main__button">find out more</button>
             </div>
-          </div>
           <div class="col-md-6">
             <figure>
-              <img
+              <img class="main__img"
                 src="images/projects.jpg"
                 alt="An image which is an example of a project. Someone is drawing."
               />
             </figure>
           </div>
         </div>
-        <div class="row companysCulture">
+        <div class="row" id="team">
           <div class="col-md-6">
             <figure>
-              <img
+              <img class="main__img team__img"
                 src="images/foody.jpg"
                 alt="Fancy image with people drinking and eating together."
               />
             </figure>
           </div>
           <div class="col-md-6">
-            <div id="companysCulture">
-              <h4>company's culture</h4>
+        
+              <h4 id="team" class="main__h4">company's culture</h4>
               <p class="main__p">
                 Celiac venmo tilde, put a bird on it vinyl man braid etsy plaid
                 fanny pack next level 3 wolf moon chia single-origin coffee
@@ -83,22 +80,22 @@
                 fashion axe biodiesel poutine, waistcoat helvetica salvia
                 meditation ramps twee.
               </p>
-              <button class="findOutMore">find out more</button>
+              <button class="main__button">find out more</button>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- our crazy ideas -->
-      <header>
-        <h2 class="ideas">our crazy ideas</h2>
+      <!-- midHeader -->
+      <header class="midHeader">
+        <h2 class="midHeader__h2">our crazy ideas</h2>
       </header>
 
       <!-- experience -->
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h4>experience</h4>
+            <h4 id="mission" class="main__h4">experience</h4>
             <p class="main__p">
               Everyday carry cray vegan microdosing waistcoat, godard portland
               gentrify viral vape hammock. Prism lyft cold-pressed, snackwave
@@ -108,11 +105,11 @@
               mug, authentic four loko chicharrones salvia fingerstache
               vaporware chia church-key hoodie single-origin coffee.
             </p>
-            <button class="findOutMore">find out more</button>
+            <button class="main__button">find out more</button>
 		  </div>
 		  <div class="col-md-6">
             <figure>
-              <img
+              <img class="main__img"
                 src="images/guy.jpg"
                 alt="A photo presenting a man in a fancy yellow smoke."
               />
@@ -121,25 +118,25 @@
         </div>
       </div>
 
-      <footer>
+      <footer class="footer">
         <div class="container">
 			<div class="row" id="contact">
 				<div class="col-md-6">
-          <h3 class="sayHello">say hello</br>to our team</h3>
+          <h3 class="footer__h3">say hello</br>to our team</h3>
           <p class="footer__p">Created by the Awwwesomes in 2017</p>
         </div>
         <div class="col-md-6">
-          <form>
-            <label for="name">name</label>
-            <input type="text" id="nameData">
+          <form class="footer__formWrapper">
+            <label class="footer__form__label" for="name">name</label>
+            <input class="footer__form__input" type="text" id="nameData">
             
-            <label for="email">e-mail</label>
-            <input type="email" id="emailData">
+            <label class="footer__form__label" for="email">e-mail</label>
+            <input class="footer__form__input" type="email" id="emailData">
 
-            <label for="message">message</label>
-            <textarea rows="10" cols="30"></textarea>
+            <label class="footer__form__label" for="message">message</label>
+            <textarea class="footer__form__textarea" rows="10" cols="30"></textarea>
 
-            <button class="send">send</button>
+            <button class="footer__button">send</button>
           </form>
         </div>
 			</div>
