@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 /* Fonts, headings */
 body {
   font-family: "Montserrat", "Roboto", sans-serif;
@@ -48,7 +53,7 @@ h2 {
 }
 
 .nav__li {
-  display: inline;
+  display: inline-block;
   padding: 0 10px;
 }
 
@@ -75,7 +80,7 @@ h2 {
 
 .topHeader__img-wave-bottom {
   position: absolute;
-  bottom: -40px;
+  bottom: -30px;
   right: 0px;
   max-width: 40vw;
 }
@@ -109,10 +114,6 @@ h2 {
 .main__img {
   margin-top: 40px;
   width: 409px;
-}
-
-.team__img {
-  margin-top: 20px;
 }
 
 button {
