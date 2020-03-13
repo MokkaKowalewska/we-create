@@ -52,6 +52,7 @@ h2 {
   color: #fff;
 }
 
+
 .nav__li {
   display: inline-block;
   padding: 0 10px;
@@ -116,7 +117,7 @@ h2 {
   width: 409px;
 }
 
-button {
+.button {
   font-size: 15px;
   font-family: "Montserrat";
   font-weight: 700;
@@ -125,6 +126,15 @@ button {
   width: 162.5px;
   letter-spacing: 0.1em;
   display: block;
+  will-change: transform;
+  transition: transform 0.5s ease-out;
+}
+
+.button:hover, .button:focus {
+  outline: none;
+  transform: translateY(10px);
+  cursor: pointer;
+  background-color: rgba(255, 102, 153, 0.3);
 }
 
 .main__button {
@@ -132,7 +142,7 @@ button {
   margin-top: 10px;
   background-color: white;
   color: #330066;
-  border-color: #cc33cc;
+  border-color: rgb(204, 51, 204);
 }
 
 /* midHeader */
@@ -183,6 +193,9 @@ button {
   width: 365px;
   margin: 25px 0;
   background-color: transparent;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  color: #330066;
 }
 
 .footer__form__input {
@@ -194,6 +207,11 @@ button {
   border: 1px solid #330066;
   height: 100px;
   resize: none;
+}
+
+.footer__form__input:focus, .footer__form__textarea:focus {
+  outline: none;
+  border-color: white;
 }
 
 .footer__form__label {
