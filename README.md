@@ -14,4 +14,4 @@ Project is created with:
 Project is _still in progress_.
 
 ## Contact
-Created by [Monika Kowalewska](www.linkedin.com/in/mon-kowalewska) - do not hesitate to contact me!
+Created by [Monika Kowalewska](http://www.linkedin.com/in/mon-kowalewska) - do not hesitate to contact me!
