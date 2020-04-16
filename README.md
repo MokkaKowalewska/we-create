@@ -6,9 +6,9 @@ Please find demo [here](https://mokkakowalewska.github.io/we-create/).
 
 ## Technologies
 Project is created with:
-* HTML,
-* CSS:
-    - Bootstrap Grid.
+* HTML
+* CSS
+    - Bootstrap
 
 ## Status
 Project is _still in progress_.
