@@ -1,8 +1,8 @@
 # We Create - layout coded from PSD and assets
 
-This is my first layout coded within a [HTML/CSS tutorial from The Awwwesomes](https://the-awwwesomes.gitbooks.io/html-css-step-by-step/pl/index.html). 
+This is my first layout coded from PSD file during a [HTML/CSS tutorial from The Awwwesomes](https://the-awwwesomes.gitbooks.io/html-css-step-by-step/pl/index.html). 
 
-Please find demo [here](https://mokkakowalewska.github.io/we-create/).
+### [DEMO](https://mokkakowalewska.github.io/we-create/).
 
 ## Technologies
 Project is created with:
